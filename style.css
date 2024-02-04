@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .upper {
+    background-color: #C7003D;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 6rem;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .upper ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.header .upper ul li {
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.header .lower {
+    background-color: #E40046;
+    padding: 1rem 6rem;
+    width: 100%;
+    display: flex;
+}
+
+.header .lower .logo {
+    padding: 0.6rem;
+    width: 12%;
+}
+
+.header .lower .search-logo {
+    padding: 0.6rem;
+    width: 20%;
+    /* Adjust the width as needed */
+}
+
+.header .lower .search-bar {
+    width: 60%;
+    /* Increase the width to 60% */
+}
+
+.header .lower input[type=text] {
+    width: 79%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header .lower button {
+    width: 20%;
+    background-color: #3F3F3F;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.header .lower button:hover {
+    background-color: #000;
+}
+
+.header .lower .cart {
+    color: #fff;
+    width: 20%;
+    transform: translate(70%, 0%);
+}
+
+.header .lower .signin {
+    color: #fff;
+    width: 20%;
+    transform: translate(70%, 0%);
+}
+
+.body {
+    padding: 0.5rem 6rem;
+    display: flex;
+    width: 100%;
+}
+
+.body .categories {
+    width: 20%;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.body .categories ul {
+    list-style-type: none;
+}
+
+.body .banner {
+    width: 60%;
+}
+
+.body .location {
+    padding: 1rem;
+}
+
+.body .location .box {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .location .box img {
+    height: 10rem;
+}
+
+.body .location .box input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.body .location .box input[type=submit] {
+    width: 100%;
+    background-color: #3F3F3F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.body .location .box input[type=submit]:hover {
+    background-color: #000;
+}
